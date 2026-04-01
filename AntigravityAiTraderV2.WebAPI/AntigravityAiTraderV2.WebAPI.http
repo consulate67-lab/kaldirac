@@ -1,0 +1,6 @@
+@AntigravityAiTraderV2.WebAPI_HostAddress = http://localhost:5057
+
+GET {{AntigravityAiTraderV2.WebAPI_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

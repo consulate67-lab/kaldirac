@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk.Worker">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UserSecretsId>dotnet-AntigravityAiTraderV2.Worker-f6b54508-c619-4444-8253-e66959ea21f5</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.Hosting" Version="8.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\AntigravityAiTraderV2.Application\AntigravityAiTraderV2.Application.csproj" />
+    <ProjectReference Include="..\AntigravityAiTraderV2.Infrastructure\AntigravityAiTraderV2.Infrastructure.csproj" />
+  </ItemGroup>
+</Project>
